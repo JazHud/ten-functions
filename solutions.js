@@ -9,7 +9,11 @@ function isEqual(string, number){
 }
 
 function isEven(input){
-    return (input % 2 === 0);
+   if (input % 2 === 0){
+       return true;
+   } else if (input % 2 !== 0){
+       return false;
+   }
 }
 
 function isIdentical(string, number){
@@ -17,8 +21,8 @@ function isIdentical(string, number){
 }
 isIdentical();
 
-function addOne(value) {
-    return (parseInt(value) + 1);
+function addOne(value){
+    return Number(value) +1;
 }
 
 function concat(input1, input2){
@@ -26,15 +30,7 @@ function concat(input1, input2){
 }
 
 function isFalse(value) {
-    if (value !== 0){
-        return false;
-    } else if (value = String){
-        return false;
-    } else if (value = false){
-        return false;
-    } else {
-        return true;
-    }
+    return value == false;
 }
 
 function or(input1, input2){
@@ -46,17 +42,9 @@ function and(input1, input2){
 }
 
 function not(input) {
-    if (input === 0) {
-        return false;
-    } else if (input === "hello"){
-        return false;
-    } else if (input !== ("")) {
-        return false;
-    } else {
-        return true;
-    }
-
+    return !input
 }
+
 
 
 /**
