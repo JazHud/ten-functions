@@ -1,5 +1,67 @@
 "use strict";
 
+function isTrue(input) {
+    if (String.input === false){
+        return true;
+    }else if (input === true);
+        return true;
+}
+
+function isEqual(string, number){
+    return string == number;
+}
+
+function isEven(input){
+    return (input % 2 === 0);
+}
+
+function isIdentical(string, number){
+    return string === number;
+}
+isIdentical();
+
+function addOne(value) {
+    return (parseInt(value) + 1);
+}
+
+function concat(input1, input2){
+    return String(input1) + String(input2);
+}
+
+function isFalse(value) {
+    if (value !== 0){
+        return false;
+    } else if (value = String){
+        return false;
+    } else if (value = false){
+        return false;
+    } else {
+        return true;
+    }
+}
+
+function or(input1, input2){
+    return input1 || input2
+}
+
+function and(input1, input2){
+    return input1 && input2;
+}
+
+function not(input) {
+    if (input === 0) {
+        return false;
+    } else if (input === "hello"){
+        return false;
+    } else if (input !== ("")) {
+        return false;
+    } else {
+        return true;
+    }
+
+}
+
+
 /**
  * Write your solutions here.
  *
