@@ -1,10 +1,7 @@
 "use strict";
 
 function isTrue(input) {
-    if (String.input === false){
-        return true;
-    }else if (input === true);
-        return true;
+    return input === true;
 }
 
 function isEqual(string, number){
